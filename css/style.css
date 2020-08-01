@@ -1,0 +1,144 @@
+body{
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+}
+
+        /* navigation bar */
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+.nav-item {
+    padding: 0 20px;
+  }
+
+
+.big-heading{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 5rem;
+    margin: 2px 7px;
+}
+
+        /* title */
+
+.d-button{
+    padding: 2px 5px;
+    margin: 20px 7px;
+}
+
+
+#title{
+    background-color: #050505;
+    color: green;
+    
+    text-align: left;
+}
+
+
+
+.title-image{
+    margin-top: 55px;
+    width: 60%;
+    transform: rotate(25deg);
+}
+
+        /* features */
+
+#features{
+    background-color:green;
+    color: white;
+    position: relative;
+    text-align: center;
+}
+
+.feature-box{
+    margin: auto;
+    padding: 4.5%;
+}
+
+.feature-title{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    
+}
+
+.icon{
+margin: 2rem;
+
+}
+
+        /* testimonials */
+
+#testimonials{
+    background-color: #050505;
+    color: green;
+    text-align: center;
+    
+}
+
+.testimonial-image{
+    border-radius: 100%;
+    padding-bottom: 10px;
+    margin: 2rem;
+    width: 35%;
+    
+}
+
+
+.testimonial-text{
+    font-family: 'Rubik', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    
+}
+
+        /* press and pricing */
+
+#press{
+    background-color: white;
+}
+
+.press-logo {
+    width: 20%;
+    margin: 20px 35px 50px;
+  }
+
+#pricing{
+    color: green;
+    font-family: 'Oxygen', sans-serif;
+    text-align: center;
+    
+}
+
+        /* download section */
+
+#download{
+    background-color: #050505;
+    color: green;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+}
+        /* footer */
+
+#footer{
+    background-color: #050505;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    margin: auto;
+}
+
+.social-icon {
+    margin: 20px 10px;
+  }
+
+  
+@media(max-width:1028px) {
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
