@@ -89,7 +89,7 @@ margin: 2rem;
 
 
 .testimonial-text{
-    font-family: 'Rubik', sans-serif;
+    font-family:'Oxygen', sans-serif;
     font-size: 3rem;
     line-height: 1.5;
     
@@ -108,7 +108,7 @@ margin: 2rem;
 
 #pricing{
     color: green;
-    font-family: 'Oxygen', sans-serif;
+    font-family:'Ubuntu', sans-serif;
     text-align: center;
     
 }
